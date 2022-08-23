@@ -11,12 +11,15 @@
     <packaging>pom</packaging>
     <modules>
         <module>inventory_quarkus</module>
+        <module>catalog_spring_boot</module>
+        <module>api_gateway_spring_boot</module>
     </modules>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.parameters>true</maven.compiler.parameters>
     </properties>
 
 </project>
